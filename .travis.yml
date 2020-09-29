@@ -9,3 +9,5 @@ deploy:
 before_install:
   - openssl aes-256-cbc -K $encrypted_63d8deefa012_key -iv $encrypted_63d8deefa012_iv
     -in ncd.json.enc -out ncd.json -d
+before_script:
+  - npm run build

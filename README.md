@@ -1,3 +1,3 @@
 # ci-cd deployment
 
-This is an example of deploying nodejs application to google app engine
+This is an example of deploying a MEAN stack application to google app engine
