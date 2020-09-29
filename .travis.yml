@@ -5,6 +5,7 @@ deploy:
   provider: gae
   keyfile: ncd.json
   project: node-ci-cd-poc
+  skip_cleanup: true
   true: master
 before_install:
   - openssl aes-256-cbc -K $encrypted_63d8deefa012_key -iv $encrypted_63d8deefa012_iv
