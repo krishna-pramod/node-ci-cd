@@ -1,0 +1,10 @@
+sud0: false
+language: node_js
+node:
+  - 12
+
+deploy:
+  provider: gae
+  keyfile: ncd.json
+  project: node-ci-cd-poc
+  on: master
